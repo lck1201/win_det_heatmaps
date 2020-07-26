@@ -1,0 +1,8 @@
+scipy
+numpy
+matplotlib
+easydict
+opencv-python
+munkres
+PyYAML
+Shapely

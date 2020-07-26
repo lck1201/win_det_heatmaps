@@ -1,0 +1,34 @@
+pytorch:
+  gpus: '0'
+  frequent: 30
+  output_path: './model/shufflenetv2_ft'
+  log_path: './log/shufflenetv2_ft'
+  block: 'shufflenetv2_pose'
+  loss: 'gaussian'
+dataiter:
+  batch_images_per_ctx: 48
+  threads: 4
+optimizer:
+  lr: 0.001
+  lr_epoch_step: '90,110'
+  lr_factor: 0.1
+  optimizer_name: 'adam'
+train:
+  end_epoch: 120
+  model_prefix: 'model'
+  patch_width: 384
+  patch_height: 384
+loss:
+  heatmap_type: 'gaussianAE'
+  loss_type: 'L1'
+  useAE: true
+  ae_weight: 1.0
+  ae_expect_dist: 12.0
+  useCenterNet: true
+test:
+  fullEval: false
+  plot: false
+  rectify: false
+  useCenter: true
+network:
+  head_branch: 2

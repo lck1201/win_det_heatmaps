@@ -1,3 +1,10 @@
+# self-defined
+debug*
+nohup.out
+.idea/
+debug/
+output
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
