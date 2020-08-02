@@ -21,7 +21,7 @@ pip3 install -r requirements.txt
 
 The zju_facade_jcst2020 database is described in the paper, and now avaliable on [BaiduYun](https://pan.baidu.com/s/1yfPmH7KZ4X5RoYWUhE9tYw)(code: qlx5).
 
-Facade images were collected from the Internet and existing datasets including [TSG-20](http://dib.joanneum.at/cape/TSG-20/), [TSG-60](http://dib.joanneum.at/cape/TSG-60/), [ZuBuD](http://www.vision.ee.ethz.ch/showroom/zubud/), [CMP](http://cmp.felk.cvut.cz/~tylecr1/facade/), [ECP](http://vision.mas.ecp.fr/Personnel/teboul/data.php), and then data cleaning proceeded to ensure data quality standards. Using the open source software [LabelMe](https://github.com/wkentaro/labelme), we manually annotated the positions of four corners of windows in order in the images.
+Facade images were collected from the Internet and existing datasets including [TSG-20](http://dib.joanneum.at/cape/TSG-20/), [TSG-60](http://dib.joanneum.at/cape/TSG-60/), [ZuBuD](http://www.vision.ee.ethz.ch/showroom/zubud/), [CMP](http://cmp.felk.cvut.cz/~tylecr1/facade/), [ECP](http://vision.mas.ecp.fr/Personnel/teboul/data.php), and then data cleaning proceeded to ensure data quality standards. Using the open source software [LabelMe](https://github.com/wkentaro/labelme), we manually annotated the positions of four corners of windows in order.
 
 <div align="center">
     <img src="https://github.com/lck1201/win_det_heatmaps/raw/master/docs/anno_example.jpg" width="550">
