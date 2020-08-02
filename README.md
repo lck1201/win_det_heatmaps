@@ -90,7 +90,7 @@ As our method can efficiently locate windows in urban facade images, it is of us
 </div>
 
 # Citation
-If you find our code/dataset/models/paper helpful in your research, please cite with:
+If our code/dataset/models/paper helps your research, please cite with:
 > @article{Chuan-Kang Li:900, <br/>
 author = {Chuan-Kang Li, Hong-Xin Zhang, Jia-Xin Liu, Yuan-Qing Zhang, Shan-Chen Zou, Yu-Tong Fang},<br/>
 title = {Window Detection in Facades Using Heatmap Fusion},<br/>
