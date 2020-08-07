@@ -1,5 +1,7 @@
 # Window Detection in Facades Using Heatmaps Fusion
-Official implementation of our paper [Window Detection in Facades Using Heatmap Fusion](http://jcst.ict.ac.cn/EN/10.1007/s11390-020-0253-4).
+Official implementation of our [paper](http://jcst.ict.ac.cn/EN/10.1007/s11390-020-0253-4).
+
+Chuan-Kang Li, Hong-Xin Zhang, Jia-Xin Liu, Yuan-Qing Zhang, Shan-Chen Zou, Yu-Tong Fang. Window Detection in Facades Using Heatmap Fusion[J].Journal of Computer Science and Technology, 2020, 35(4): 900-912.
 
 # Introduction
 Window detection is a key component in many graphics and vision applications related to 3D city modeling and scene visualization. We present a novel approach for learning to recognize windows in a colored facade image. Rather than predicting bounding boxes or performing facade segmentation, our system locates keypoints of windows, and learns keypoint relationships to group them together into windows. A further module  provides extra recognizable information at the window center. Locations and relationships of keypoints are encoded in different types of heatmaps, which are learned in an end-to-end network. 
