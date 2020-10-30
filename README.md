@@ -21,7 +21,7 @@ pip3 install -r requirements.txt
 
 **Dataset**
 
-The zju_facade_jcst2020 database is described in the paper, and now avaliable on [BaiduYun](https://pan.baidu.com/s/1yfPmH7KZ4X5RoYWUhE9tYw)(code: qlx5).
+The zju_facade_jcst2020 database is described in the paper, and now avaliable on [BaiduYun](https://pan.baidu.com/s/1yfPmH7KZ4X5RoYWUhE9tYw)(code: qlx5), [GoogleDrive](https://drive.google.com/drive/folders/1TfeIcQ8KlEvP1-ewGcTaj3SqU_IpoLUv?usp=sharing)
 
 Facade images were collected from the Internet and existing datasets including [TSG-20](http://dib.joanneum.at/cape/TSG-20/), [TSG-60](http://dib.joanneum.at/cape/TSG-60/), [ZuBuD](http://www.vision.ee.ethz.ch/showroom/zubud/), [CMP](http://cmp.felk.cvut.cz/~tylecr1/facade/), [ECP](http://vision.mas.ecp.fr/Personnel/teboul/data.php), and then data cleaning proceeded to ensure data quality standards. Using the open source software [LabelMe](https://github.com/wkentaro/labelme), we manually annotated the positions of four corners of windows in order.
 
@@ -31,7 +31,7 @@ Facade images were collected from the Internet and existing datasets including [
 
 **Model**
 
-You can use our trained models from [BaiduYun](https://pan.baidu.com/s/1l3Nsy3opmXQdcUgnAIY4rw)(code: n0ev). ResNet18, MobileNetV2, ShuffleNetV2 are provided. All the configurations are written in \*.yaml files and config_pytorch.py, and you can change it up to your own needs.
+You can use our trained models from [BaiduYun](https://pan.baidu.com/s/1l3Nsy3opmXQdcUgnAIY4rw)(code: n0ev), [GoogleDrive](https://drive.google.com/drive/folders/1TfeIcQ8KlEvP1-ewGcTaj3SqU_IpoLUv?usp=sharing). ResNet18, MobileNetV2, ShuffleNetV2 are provided. All the configurations are written in \*.yaml files and config_pytorch.py, and you can change it up to your own needs.
 
 The table concludes the performance of three models on our i7-6700K + 1080Ti platform. Note that center verification module is not used.
 
