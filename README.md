@@ -31,7 +31,7 @@ Facade images were collected from the Internet and existing datasets including [
 
 **Model**
 
-You can use our trained models from [BaiduYun](https://pan.baidu.com/s/1l3Nsy3opmXQdcUgnAIY4rw)(code: n0ev), [GoogleDrive](https://drive.google.com/drive/folders/1TfeIcQ8KlEvP1-ewGcTaj3SqU_IpoLUv?usp=sharing). ResNet18, MobileNetV2, ShuffleNetV2 are provided. All the configurations are written in \*.yaml files and config_pytorch.py, and you can change it up to your own needs.
+You can use our trained models from [BaiduYun](https://pan.baidu.com/s/1l3Nsy3opmXQdcUgnAIY4rw)(code: n0ev), [GoogleDrive](https://drive.google.com/drive/folders/1TfeIcQ8KlEvP1-ewGcTaj3SqU_IpoLUv?usp=sharing). ResNet18, MobileNetV2, ShuffleNetV2 are provided. All the configurations are written in \*.yaml files and config_pytorch.py, and you can change it up to your own needs. **NOTE: model filename is ended with .tar but isn't a compressed file. Just ignore the postfix and load ckpt directly.**
 
 The table concludes the performance of three models on our i7-6700K + 1080Ti platform. Note that center verification module is not used.
 
